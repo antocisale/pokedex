@@ -2,6 +2,7 @@ const baseUrl = "https://pokeapi.co/api/v2/pokemon/";
 
 const handleError = err => {
     alert(`Oops! Pokémon no encontrado`);
+    throw "Error, Pokémon no encontrado"
 };
 
 let pokemon= {};
@@ -20,7 +21,7 @@ const getPokemon = async id => {
     await setTimeout(()=>{
         
         overlay.classList.remove("overlayOn");
-    }, 3000)
+    }, 2000)
 };
 
 const imagenPokemon = () =>{
@@ -88,3 +89,18 @@ boton.addEventListener("click",()=>{
     getPokemon(document.querySelector("#finder").value);
     document.querySelector("#finder").value = "";
 });
+
+const inicio = ()=>{
+    let pantallaInicio = document.querySelector("#start");
+    pantallaInicio.classList.add("overlayOn");
+}
+
+const ocultarPantallaInicio= ()=>{
+    let pantallaInicio = document.querySelector("#start");
+    pantallaInicio.classList.remove("overlayOn");
+}
+
+let start = document.querySelector("#button-start");
+start.addEventListener("click",ocultarPantallaInicio);
+
+inicio();

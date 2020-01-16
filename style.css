@@ -13,6 +13,19 @@ body{
     overflow: hidden;
 }
 
+.start{
+    background-color: #ef5350;
+    display:none;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    z-index:1;
+    position:fixed;
+    top:0;
+    left:200px;
+        
+}
+
 .overlay{
     background-color: rgba(255,255,255, 0.7);
     position: fixed;
@@ -65,11 +78,9 @@ body{
     color:#fff;
 }
 
-#search-button{
+.button{
     background-color: #1D2B81;
     color:#F9C23F;
-    width: 48px;
-    height:48px;
     border-radius:50%;
     border:2px solid #0b165d;
     font-weight:700;
@@ -77,7 +88,17 @@ body{
     box-shadow: 2px 0px 0px 0px #0b165d;
 }
 
-#search-button:hover{
+.button-search{
+    width: 48px;
+    height:48px;
+}
+
+.button-start{
+    width:60px;
+    height: 50px;
+}
+
+.button:hover{
     background-color: #15205e;
     cursor:pointer;
 
@@ -104,7 +125,6 @@ body{
     align-items:center;
     height:440px;
     width:100%;
-    //background-color:yellow;
 }
 
 .main-poke-img-place{
