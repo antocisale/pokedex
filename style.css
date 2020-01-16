@@ -1,0 +1,207 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    box-sizing:border-box;
+} 
+
+.main{
+    width:70%;
+    margin:auto;
+    margin-top:100px;
+    border: 1px solid #b0b0b0;
+    border-radius:10px;
+    height:500px;
+    overflow: hidden;
+}
+
+.overlay{
+    background-color: rgba(255,255,255, 0.7);
+    position: fixed;
+    top: 0;
+    left:0;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    width:100vw;
+    display:none;
+}
+
+.overlayOn{
+    display:flex;
+}
+
+.main-head{
+    background-color:#ef5350;
+    height:80px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.search{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width:50%;
+}
+
+.logo{
+    padding-right:80px;
+    padding-top:10px;
+    height:80px;
+}
+
+.main-poke-img-place{
+    background-color: #b0b0b0;
+}
+
+.main-title{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left:25px;
+    display: flex;
+    flex-direction: row;
+    line-height: 30px;
+    color:#fff;
+}
+
+#search-button{
+    background-color: #1D2B81;
+    color:#F9C23F;
+    width: 48px;
+    height:48px;
+    border-radius:50%;
+    border:2px solid #0b165d;
+    font-weight:700;
+    font-size:18px;
+    box-shadow: 2px 0px 0px 0px #0b165d;
+}
+
+#search-button:hover{
+    background-color: #15205e;
+    cursor:pointer;
+
+}
+
+
+.main-head-input{
+    line-height: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left:5px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom:0px;
+    border-radius:4px;
+    height:35px;
+    width:280px;
+}
+
+.main-poke{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    height:440px;
+    width:100%;
+    //background-color:yellow;
+}
+
+.main-poke-img-place{
+    width:300px;
+    height:250px;
+    border-radius:8px;
+
+}
+
+.main-poke-img-place-img{
+    background-color:#fff;
+    width:200px;
+    height:200px;
+}
+
+.fire{
+    background-color: red;
+}
+
+.normal{
+    background-color: blue;
+}
+
+
+
+
+/*
+.fighting{
+    background-color:
+};
+
+.flying{
+    background-color:
+};
+
+.poison{
+    background-color:
+};
+
+.ground{
+    background-color:
+};
+
+.rock{
+    background-color:
+};
+
+.bug{
+    background-color:
+};
+
+.ghost{
+    background-color:
+};
+
+.steel{
+    background-color:
+};
+
+
+
+.water{
+    background-color:
+};
+
+.grass{
+    background-color:
+};
+
+.electric{
+    background-color:
+};
+
+.psychic{
+    background-color:
+};
+
+.ice{
+    background-color:
+};
+
+.dragon{
+    background-color:
+};
+
+.dark{
+    background-color:
+};
+
+.fairy{
+    background-color:
+};
+
+.unknown{
+    background-color:
+};
+
+.shadow{
+    background-color:
+}; */
