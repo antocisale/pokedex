@@ -2,6 +2,7 @@ const baseUrl = "https://pokeapi.co/api/v2/pokemon/";
 
 const handleError = err => {
     alert(`Oops! Pokémon no encontrado`);
+    overlay.classList.remove("overlayOn");
     throw "Error, Pokémon no encontrado"
 };
 
@@ -9,6 +10,7 @@ let pokemon= {};
 const overlay = document.querySelector("#overlay");
 
 const getPokemon = async id => {
+    id=id.toLowerCase();
     overlay.classList.add("overlayOn"); //SET TIME OUT
     
     try {
