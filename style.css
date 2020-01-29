@@ -152,93 +152,192 @@ body{
     width:100%;
 }
 
-.fire{
-    background-color: red;
-}
-
-.normal{
-    background-color: blue;
-}
-
 .main-poke-info{
     width:600px;
     height:300px;
     background-color: #fff;
-    padding:10px;
+    padding:25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border:10px solid #b0b0b0;
+    box-sizing: border-box;
 }
 
+.fire{
+    background-color: #FF6144;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 
-/*
+.normal{
+    background-color: #B7B7A9;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
+
 .fighting{
-    background-color:
-};
+    background-color: #C56F61;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 
 .flying{
-    background-color:
-};
+    background-color: #9aa9ff;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 
 .poison{
-    background-color:
-};
+    background-color: #B76FA9;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 
 .ground{
-    background-color:
-};
+    background-color: #E2C56F;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 
 .rock{
-    background-color:
-};
+    background-color: #C5B77D;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 
 .bug{
-    background-color:
-};
+    background-color: #B7C544;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 
 .ghost{
-    background-color:
-};
+    background-color: #7D7DC5;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 
 .steel{
-    background-color:
-};
-
-
-
+    background-color: #B7B7C5;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 .water{
-    background-color:
-};
+    background-color: #51A8FF;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 
 .grass{
-    background-color:
-};
+    background-color: #8CD46F;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 
 .electric{
-    background-color:
-};
+    background-color: #FFD452;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 
 .psychic{
-    background-color:
-};
+    background-color: #FF6FA9;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 
 .ice{
-    background-color:
-};
+    background-color: #7DD4FF;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 
 .dragon{
-    background-color:
-};
+    background-color: #8C7DF1;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 
 .dark{
-    background-color:
-};
+    background-color: #8C6F61;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 
 .fairy{
-    background-color:
-};
+    background-color: #F1A9F1;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 
 .unknown{
-    background-color:
-};
+    background-color: #111;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
 
 .shadow{
-    background-color:
-}; */
+    background-color: #111;
+    padding:10px;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: 'Press Start 2P', cursive;
+}
